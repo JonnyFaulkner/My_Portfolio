@@ -3,18 +3,60 @@
 body {
     background-color: black;
     color: lightgray;
+    height: 100%;
 }
 
 a {
     text-decoration: none;
-    color: lightgray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* Header Styling */
 
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: slategray;
+    padding: 15px 35px 15px 0px;
+    top: 0;
+    color: whitesmoke
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    padding: 5px 15px 5px 35px;
+    background-color: lightgray;
+}
+
+header h1 a {
+    color: darkslategray;
+    font-size: 45px;
+}
+
 header nav ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
 
+header nav ul li a {
+    padding: 20px 15px 5px;
+    font-weight: lighter;
+    border-bottom: 3px solid lightgray;
+    margin: 20px 15px 0 0;
+    font-size: 25px;
+    color: lightgray;
 }
 
 /* Footer Styling */
@@ -23,9 +65,32 @@ header nav ul {
 
 /* Hero Styling */
 
+.hero {
+    display: flex;
+    background-image: url("../images/800w-9T_B0f66A4o.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 100px;
+}
 
+.hero-text {
+    background-color: lightgray;
+    color: darkslategray;
+    flex: 0 1 auto;
+    font-size: 25px;
+    align-self: flex-end;
+    margin: 0 15px 15px 0;
+    padding: 5px 5px 5px 5px;
+}
 
 /* About Me Styling */
+
+
+
+/* Projects Styling */
 
 
 
