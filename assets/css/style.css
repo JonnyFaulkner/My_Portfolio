@@ -88,7 +88,28 @@ header nav ul li a {
 
 /* About Me Styling */
 
+.about-me {
+    text-align: center;
+}
 
+.about-me div{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: center;
+    padding: 25px 0 25px 0;
+}
+
+.about-me h3 {
+    width: 13%;
+    font-size: 35px;
+}
+
+.about-me p {
+    width: 35%;
+    margin-left: 30px;
+    border-left: 3px solid lightgray;
+}
 
 /* Projects Styling */
 
