@@ -3,11 +3,11 @@
 body {
     background-color: black;
     color: lightgray;
-    height: 100%;
 }
 
 a {
     text-decoration: none;
+    color: lightgray
 }
 
 *{
@@ -113,7 +113,79 @@ header nav ul li a {
 
 /* Projects Styling */
 
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25%;
+}
 
+.projects h2 {
+    margin-right: 60%;
+}
+
+.project-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    border-left: 3px solid lightgray;
+    width: 50%;
+    height: 20%;
+    position: absolute
+}
+
+.project-links a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    opacity: 0.5;
+    border: 3px solid lightgray;
+}
+
+.project-links a:hover {
+    opacity: 1.0;
+}
+
+.link-text {
+    background-color: lightgray;
+    color: darkslategray;
+}
+
+.project-img {
+    height: 60%;
+    width: 48%;
+    display:flex;
+    flex-wrap:wrap;
+    align-content: flex-end;
+    margin: 5px 5px 5px 5px;
+}
+
+#project-1 {
+    background-image: url("../images/2021-05-22\ \(2\).png");
+    height: 200%;
+    width: 400%;
+    margin:5px 5px 5px 5px; 
+}
+
+#project-2 {
+    background-image: url("../images/2021-05-11\ \(3\).png");
+}
+
+#project-3 {
+    background-image: url("../images/laptops-banner2400.jpg");
+}
+
+#project-4 {
+    background-image: url("../images/metadata-illustration.jpg");
+}
+
+#project-5 {
+    background-image: url("../images/technology-785742_1920.jpg");
+    background-position:center;
+}
 
 /* Contact Me Styling */
 
